@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebDash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Web Dashboard</h1>
+
+        <div class="top-controls">
+            <input id="searchInput" type="text" placeholder="Search websites...">
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="favorites">⭐ Favorites</option>
+                <option value="games">Games</option>
+                <option value="tools">Tools</option>
+                <option value="projects">Projects</option>
+            </select>
+            <button id="themeBtn">🌓 Mode</button>
+        </div>
+    </header>
+
+    <div id="container"></div>
+
+    <script src="sites.js"></script>
+    <script src="theme.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
